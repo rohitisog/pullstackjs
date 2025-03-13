@@ -3,12 +3,14 @@
   "version": "1.0.0",
   "description": "a full stack web app with authentication",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "dev": "nodemon index.js"
-  },
+    },
   "author": "rohit",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^16.4.7",
     "express": "^4.21.2",
     "nodemon": "^3.1.9"
   }
