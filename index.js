@@ -12,7 +12,7 @@ app.get('/', (req, res) => {
 })
 
 db();
-
+app.use(express.json());
 app.use("/api/v1/user",userRoutes)
 app.listen(port, () => {
   console.log(`Example app listening on port http://localhost:${port}`)
